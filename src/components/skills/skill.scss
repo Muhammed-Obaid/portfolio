@@ -1,0 +1,57 @@
+.skills {
+    background: linear-gradient(180deg, #0c0c1d, #232363);
+    height: 100vh;
+    width: 100%;
+
+    .skill-box {
+        width: 54%;
+
+        .skill {
+            .skill-slider {
+                width: 240px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .skills {
+
+        .skill-box {
+            width: 76%;
+
+            .skill {
+                .skill-slider {
+                    width: 200px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .skills {
+
+        .skill-box {
+            padding: 0 40px;
+            width: 91%;
+        }
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .skills {
+        .skill-box {
+            padding: 0 10px;
+
+
+            .skill {
+
+                // border: 2px solid red;
+                .skill-slider {
+                    width: 155px;
+                }
+            }
+        }
+    }
+}

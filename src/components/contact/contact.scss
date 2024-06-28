@@ -1,0 +1,60 @@
+.contact {
+    background: linear-gradient(180deg, #232363, #0c0c1d);
+    z-index: 1;
+    position: relative;
+    height: 100vh;
+    .contactContainer{
+        margin-left: 80px;
+        width: 34%;
+    }
+
+    .fromContainer {
+        position: relative;
+        margin-right: 80px;
+        width: 32%;
+        height: 54%;
+
+        .phoneSVG {
+            position: absolute;
+            z-index: -1;
+        }
+
+        form {
+            z-index: 2;   
+        }
+    }
+}
+@media screen and (max-width: 640px) {
+    .contact{
+        .contactContainer{
+            margin-left: 20px;
+        }
+        .fromContainer{
+            margin-right: 20px;
+            width: 50%;
+            height: 50%;
+        }
+    }
+    
+}
+@media screen and (max-width: 520px) {
+    .contact{
+        
+        .fromContainer{
+            margin-right: 20px;
+            width: 60%;
+            height: 50%;
+        }
+    }
+    
+}
+@media screen and (max-width: 450px) {
+    .contact{
+        .fromContainer{
+            margin: 23px auto 5px auto;
+            height: 46%;
+            width: 75%;
+        }
+    }
+    
+}

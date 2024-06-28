@@ -1,0 +1,51 @@
+section{
+display: none;
+height: 100vh;
+// background: linear-gradient(180deg, #232363, #0c0c1d);
+z-index: 999;
+    .title{
+        position: absolute;
+        top: 20px;
+        left: 280px;
+    }
+}
+.sidebar {
+    display: none;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+
+    .bg {
+        // background: linear-gradient(180deg, #232363, #0c0c1d);
+        background: linear-gradient(180deg, #3f3f7c, #404092);
+
+        // background-color: white;
+        z-index: 997;
+        position: fixed;
+        width: 250px;
+        height: 100vh;
+        top: 0;
+        right: 0;
+        .items{
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    button {
+        z-index: 998;
+        position: fixed;
+        top: 25px;
+        right: 38px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    section{
+        display: block;
+    }
+    .sidebar {
+        display: block;
+    }
+
+}

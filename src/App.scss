@@ -1,0 +1,27 @@
+html {
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    // background-color: #0c0c1d;
+    background: linear-gradient(180deg, #232363, #232353);
+    color: lightgray;
+}
+
+.scroll {
+    height: 100vh;
+    scroll-snap-align: center;
+}
+.above{
+    position: fixed;
+    width: 100vw;
+    height: 80px;
+    z-index: 999;
+}
